@@ -1,0 +1,447 @@
+
+$1
+$@
+$CONFIG_DIR
+$CONFIG_DIR/.tmp_XXXX
+$CONFIG_DIR/.tmp_commit_XXXX
+$CONFIG_DIR/.tmp_tag_XXXX
+$CONFIG_DIR/repos.list
+$CURRENT_REPO
+$REPO_LIST_FILE
+$ZENITY_SEPARATOR
+$action
+$allow_multiple
+$author
+$bad
+$base
+$body
+$branch
+$branches
+$choice
+$chosen
+$code
+$commit
+$commits
+$content
+$default_branch
+$desc
+$existing
+$extra
+$extra_opt
+$file
+$files
+$first
+$form
+$good
+$hash
+$header
+$include_remote
+$key
+$list
+$log
+$max_entries
+$message
+$mode
+$name
+$new_repo
+$option
+$options
+$output
+$prompt
+$rel
+$reltime
+$rem
+$remote
+$remote_name
+$remotes
+$repo
+$second
+$selected_remote
+$selection
+$staged
+$status
+$strategy
+$subject
+$tag
+$tags
+$tags_opt
+$term
+$text
+$tg
+$title
+$tmpfile
+$to_delete
+$url
+$value
+${XDG_CONFIG_HOME:-$HOME/.config}/git_toolkit
+${cmd[@]}
+${commits//\n/|}
+${commits_list[@]}
+${data[@]}
+${extra_array[@]}
+${files[@]}
+${files_to_restore[@]}
+${options[@]}
+${opts[@]}
+${remote_list[@]}
+${remotes_to_remove[@]}
+${remove_arr[@]}
+${remove_list[@]}
+${repos[@]}
+${tag_args[@]}
+${tags_to_delete[@]}
+(No saved repositories)
+(nessun output)
+--dry-run
+-fd
+-m
+A partire da (commit/branch)
+Action
+Add
+Add file all'index
+Add file alla staging area
+Add nota
+Add o modifica la nota di un commit
+Add o rimuovi repository salvati
+Add remote
+Add un nuovo remote
+Additional tag options (e.g. --tags)
+All untracked files will be deleted. Continue?
+Analyze differences
+Annotated message
+Apply commits on top of another branch
+Apply or drop stashes
+Apply selected commits
+Apply stash
+Apply stash e lo rimuove
+Apri
+Autore
+Available stashes
+Back
+Bad commit
+Bad commit (vuoto = HEAD)
+Base (branch/commit)
+Bisect
+Branch
+Branch corrente: $branch
+Branch created
+Branch is required.
+Branch name
+Branch to push
+Branch to update
+Browse...
+Change repository
+Checkout
+Checkout a specific commit (detached HEAD)
+Checkout commit
+Cherry-pick
+Choose
+Choose branch
+Choose il branch di base
+Choose remote
+Choose repositories to remove
+Choose un altro repository
+Choose un file da confrontare
+Clean
+Clear list
+Close the toolkit
+Commit
+Commit message
+Commit result
+Commit to skip (blank = HEAD)
+Compact graph
+Compare index with HEAD
+Compare two commits
+Compare unstaged changes with HEAD
+Config
+Configuration updated.
+Configurazione repository
+Confirm
+Confirm deletion of selected tags?
+Crea branch
+Create a new branch
+Create a new commit
+Create and switch to a new branch
+Create commit
+Create tag
+Define a configuration key
+Define an annotated tag
+Delete a commit note
+Delete a configuration key
+Delete all saved repositories
+Delete tag
+Description
+Description message
+Detached HEAD
+Diagnose regressions
+Diff
+Diff between commits
+Diff staged
+Diff working tree
+Display current list
+Do you really want to delete all saved repositories?
+Download updates from a remote
+Download updates from all remotes
+Download updates without merging
+Drop stash
+Edit URL
+Empty index
+End bisect
+Enter name or email
+Enter search string
+Enter the new URL for $selection
+Error
+Existing branch
+Extra options (e.g. --force-with-lease)
+Extra options (e.g. --interactive)
+Extra options (e.g. --no-ff)
+Extra parameters (e.g. --no-commit, -x)
+Fetch
+Fetch --all
+Fetch specific remote
+File
+Files added to the index.
+Files removed from the index.
+Files restored from commit $commit.
+Filter by author
+Filter commits by search term
+Filtro
+Full details
+Full reset (loses changes)
+Git Toolkit
+Git bisect
+Git configuration
+Git log
+Git notes
+Good commit
+Good commit (vuoto = HEAD)
+Hard reset will discard unsaved changes. Continue?
+Impossibile ottenere i file dal commit selezionato.
+Initialize submodules
+Integrate updates from the remote
+Keep index and working tree
+Keep working tree, reset index
+Key (e.g. user.email)
+Key removed.
+Key to remove
+Leave Base blank to use HEAD
+Leave empty to use defaults
+List cleared.
+List remotes
+Log
+Manage
+Manage git notes
+Manage list...
+Manage remoti
+Manage submodule
+Mark bad commit
+Mark good commit
+Merge
+Merge another branch into the current one
+Merge options
+Messaggio
+Modalità
+Multiline description (optional)
+Name
+Name e URL sono obbligatori.
+New URL
+New branch
+No branches available.
+No changes.
+No commits available.
+No differences.
+No files are staged. Create a commit including all changes (git commit -am)?
+No files to stage.
+No graphical terminal found. Open one manually in $CURRENT_REPO.
+No notes available.
+No remotes configured.
+No remotes to remove.
+No results.
+No saved repositories to remove.
+No staged files to remove.
+No stashes available.
+No stashes present.
+No tags to delete.
+Not a valid Git repository (will be removed)
+Note content
+Notes
+Notes aggiunta al commit $commit.
+Notes rimossa.
+Open a terminal in the repository
+Operazione
+Options
+Options cherry-pick
+Options revert
+Opzione
+Parametri extra
+Path $selection does not exist: removing it from the list.
+Path not found (will be removed automatically)
+Path/Option
+Pick a repository from the filesystem
+Publish commits to the remote
+Pull
+Push
+Push options
+Quando
+Quick commit
+Quick creation
+Quit
+Read or set git configuration
+Rebase
+Rebase options
+Reference commit (optional)
+Relative file path
+Remote
+Remote added.
+Remotes
+Remotes removed.
+Remove
+Remove chiave
+Remove file dall'index
+Remove file dalla staging area
+Remove file non tracciati
+Remove nota
+Remove one or more saved repositories
+Remove remoti
+Remove tag esistenti
+Remove un remote
+Repositories removed from the list.
+Repository
+Repository added to list: $new_repo
+Repository: $CURRENT_REPO\nCurrent branch: $branch
+Reset
+Reset branch to a commit
+Reset mode
+Restore files
+Restore files from a commit
+Return to previous screen
+Revert
+Rimuove file e cartelle non tracciate
+Rollback
+Saved Repository Manager
+Saved repositories
+Search by keyword
+Select Git repository
+Select a new Git repository
+Select a repository first.
+Select at least two commits.
+Select branch to merge
+Select commit
+Select commit (prima base, poi target)
+Select commit da revertare
+Select commit di riferimento
+Select commit per cherry-pick
+Select commit per reset
+Select remote
+Selected files will be overwritten with content from commit $commit. Continue?
+Seleziona
+Seleziona cartella repository Git
+Set key
+Show available stashes
+Show bisect status
+Show commits by a specific author
+Show configured remotes
+Show list
+Show local configuration
+Show notes
+Show repository status
+Show submodule status
+Show what would be removed
+Skip commit
+Specific file diff
+Specify the branch to push
+Specify the branch to update
+Stage
+Start a bisect session
+Stash
+Stash current changes
+Stash lista
+Stash manage
+Stash save
+Status
+Status repository
+Strategy
+Strategy (e.g. ours, theirs)
+Subject (required)
+Submodule
+Switch to a local or remote branch
+Switch to branch or commit
+Synchronize submodule URLs
+Tag
+Tag created
+Tag name
+Tags deleted.
+Terminal
+The bad commit is required.
+The branch name is required.
+The commit message is required.
+The key is required.
+The selected path is not a valid Git repository.
+The tag name is required.
+There are unsaved changes. Continue anyway?
+Type
+URL
+URL updated.
+Ultimo aggiornamento
+Unable to read the Git log.
+Unable to remove key (maybe it does not exist).
+Unable to remove note (maybe it does not exist).
+Unable to set key.
+Unable to update the URL.
+Undo commit(s) by creating a new one
+Unstage
+Update a remote URL
+Update submodules
+Uscita
+Value
+View history
+View saved notes
+Visualizza log
+\n--include-untracked\n--all
+\n--no-commit
+apply
+bad
+cat
+cd '$CURRENT_REPO' && exec bash
+drop
+git bisect $choice
+git bisect bad
+git bisect good
+git bisect skip
+git bisect start
+git checkout
+git cherry-pick
+git clean
+git clean --dry-run
+git commit -am
+git config
+git config --list
+git config --unset
+git fetch
+git log --graph --decorate --oneline
+git log -n 100
+git merge
+git notes list
+git pull
+git push
+git rebase
+git remote -v
+git reset --$mode
+git revert
+git stash $action
+git stash push
+git submodule $choice
+good
+hard
+init
+log
+mixed
+pop
+reset
+skip
+soft
+start
+status
+sync
+true
+update

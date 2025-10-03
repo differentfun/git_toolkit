@@ -1,0 +1,449 @@
+
+$1
+$@
+$CONFIG_DIR
+$CONFIG_DIR/.tmp_XXXX
+$CONFIG_DIR/.tmp_commit_XXXX
+$CONFIG_DIR/.tmp_tag_XXXX
+$CONFIG_DIR/repos.list
+$CURRENT_REPO
+$REPO_LIST_FILE
+$ZENITY_SEPARATOR
+$action
+$allow_multiple
+$author
+$bad
+$base
+$body
+$branch
+$branches
+$choice
+$chosen
+$code
+$commit
+$commits
+$content
+$default_branch
+$desc
+$existing
+$extra
+$extra_opt
+$file
+$files
+$first
+$form
+$good
+$hash
+$header
+$include_remote
+$key
+$list
+$log
+$max_entries
+$message
+$mode
+$name
+$new_repo
+$option
+$options
+$output
+$prompt
+$rel
+$reltime
+$rem
+$remote
+$remote_name
+$remotes
+$repo
+$second
+$selected_remote
+$selection
+$staged
+$status
+$strategy
+$subject
+$tag
+$tags
+$tags_opt
+$term
+$text
+$tg
+$title
+$tmpfile
+$to_delete
+$url
+$value
+${XDG_CONFIG_HOME:-$HOME/.config}/git_toolkit
+${cmd[@]}
+${commits//\n/|}
+${commits_list[@]}
+${data[@]}
+${extra_array[@]}
+${files[@]}
+${files_to_restore[@]}
+${options[@]}
+${opts[@]}
+${remote_list[@]}
+${remotes_to_remove[@]}
+${remove_arr[@]}
+${remove_list[@]}
+${repos[@]}
+${tag_args[@]}
+${tags_to_delete[@]}
+(Nessun repository salvato)
+(nessun output)
+--dry-run
+-fd
+-m
+A partire da (commit/branch)
+Aggiorna l'URL di un remote
+Aggiorna submodule
+Aggiungi
+Aggiungi file all'index
+Aggiungi file alla staging area
+Aggiungi nota
+Aggiungi o modifica la nota di un commit
+Aggiungi o rimuovi repository salvati
+Aggiungi remote
+Aggiungi un nuovo remote
+Analizza le differenze
+Annulla commit creando un nuovo commit
+Applica commit selezionati
+Applica commit sopra un altro branch
+Applica lo stash
+Applica lo stash e lo rimuove
+Applica o elimina stash
+Applica stash
+Apri
+Apri un terminale nel repository
+Autore
+Avvia una sessione di bisect
+Azione
+Base (branch/commit)
+Bisect
+Branch
+Branch corrente: $branch
+Branch creato
+Branch da aggiornare
+Branch da pubblicare
+Branch esistente
+Branch obbligatorio.
+Cambia repository
+Cancella tutti i repository salvati
+Cerca per parola chiave
+Checkout
+Checkout commit
+Checkout puntuale di un commit (HEAD staccata)
+Cherry-pick
+Chiave (es. user.email)
+Chiave da rimuovere
+Chiave rimossa.
+Chiudi il toolkit
+Ci sono modifiche non salvate. Procedere comunque?
+Clean
+Commit
+Commit buono
+Commit buono (vuoto = HEAD)
+Commit cattivo
+Commit cattivo (vuoto = HEAD)
+Commit da saltare (vuoto = HEAD)
+Commit di riferimento (opzionale)
+Commit rapido
+Conferma
+Confermi l'eliminazione dei tag selezionati?
+Config
+Configurazione Git
+Configurazione aggiornata.
+Configurazione repository
+Confronta due commit
+Confronta index con HEAD
+Confronta modifiche non staged con HEAD
+Crea branch
+Crea commit
+Crea e passa a un nuovo branch
+Crea tag
+Crea un nuovo commit
+Creazione rapida
+Definisci un tag annotato
+Definisci una chiave di configurazione
+Descrizione
+Descrizione multilinea (opzionale)
+Dettagli completi
+Diagnostica regressioni
+Diff
+Diff file specifico
+Diff staged
+Diff tra commit
+Diff working tree
+Elenco svuotato.
+Elimina la nota di un commit
+Elimina lo stash
+Elimina tag
+Elimina una chiave di configurazione
+Elimina uno o più repository salvati
+Errore
+Esci
+Fetch
+Fetch --all
+Fetch remoto specifico
+File
+File aggiunti all'index.
+File rimossi dall'index.
+File ripristinati dal commit $commit.
+Filtra i commit per stringa
+Filtra per autore
+Filtro
+Genera un nuovo branch
+Gestione repository salvati
+Gestisci
+Gestisci elenco…
+Gestisci git notes
+Gestisci remoti
+Gestisci submodule
+Git Toolkit
+Git bisect
+Git notes
+Grafico compatto
+HEAD staccata
+I file selezionati verranno sovrascritti con il contenuto del commit $commit. Procedere?
+Il commit cattivo è obbligatorio.
+Il messaggio di commit è obbligatorio.
+Il nome del branch è obbligatorio.
+Il nome del tag è obbligatorio.
+Il percorso $selection non esiste: lo rimuovo dall'elenco.
+Il percorso selezionato non è un repository Git valido.
+Impossibile aggiornare l'URL.
+Impossibile impostare la chiave.
+Impossibile leggere il log Git.
+Impossibile ottenere i file dal commit selezionato.
+Impossibile rimuovere la chiave (forse non esiste).
+Impossibile rimuovere la nota (forse non esiste).
+Imposta chiave
+Index vuoto
+Indietro
+Inizializza submodule
+Inserisci il nome o email
+Inserisci il nuovo URL per $selection
+Inserisci la stringa da cercare
+Integra aggiornamenti dal remote
+La chiave è obbligatoria.
+Lascia vuoto il campo Base per usare HEAD
+Lascia vuoto per usare le impostazioni predefinite
+Leggi o imposta configurazioni git
+Lista remoti
+Log
+Log Git
+Mantiene index e working tree
+Mantiene working tree, resetta index
+Merge
+Messaggio
+Messaggio (obbligatorio)
+Messaggio annotato
+Messaggio commit
+Messaggio descrittivo
+Metti da parte le modifiche correnti
+Modalità
+Modalità reset
+Modifica URL
+Mostra commit di un autore specifico
+Mostra configurazione locale
+Mostra cosa verrebbe rimosso
+Mostra elenco
+Mostra lo stato del repository
+Mostra note
+Mostra remoti configurati
+Mostra stash disponibili
+Mostra stato submodule
+Nessun branch disponibile.
+Nessun commit disponibile.
+Nessun file da mettere in staging.
+Nessun file staged da rimuovere.
+Nessun remote configurato.
+Nessun remote da rimuovere.
+Nessun repository salvato da rimuovere.
+Nessun risultato.
+Nessun tag da eliminare.
+Nessun terminale grafico trovato. Apri manualmente un terminale in $CURRENT_REPO.
+Nessuna differenza.
+Nessuna modifica.
+Nessuna nota disponibile.
+Nessuno stash disponibile.
+Nessuno stash presente.
+Nome
+Nome branch
+Nome e URL sono obbligatori.
+Nome tag
+Non ci sono file in staging. Vuoi creare un commit includendo tutte le modifiche (git commit -am)?
+Non è un repository Git valido (verrà rimosso)
+Nota
+Nota aggiunta al commit $commit.
+Nota rimossa.
+Note
+Nuovo URL
+Nuovo branch
+Operazione
+Opzione
+Opzioni
+Opzioni cherry-pick
+Opzioni extra (es. --force-with-lease)
+Opzioni extra (es. --interactive)
+Opzioni extra (es. --no-ff)
+Opzioni merge
+Opzioni push
+Opzioni rebase
+Opzioni revert
+Parametri extra
+Parametri extra (es. --no-commit, -x)
+Passa a branch o commit
+Passa ad un branch locale o remoto
+Percorso non trovato (verrà rimosso automaticamente)
+Percorso relativo del file
+Percorso/Opzione
+Pubblica i commit sul remote
+Pull
+Push
+Quando
+Rebase
+Reimposta il branch a un commit
+Remote
+Remote aggiunto.
+Remote eliminati.
+Remoti
+Repository
+Repository aggiunto all'elenco: $new_repo
+Repository rimossi dall'elenco.
+Repository salvati
+Repository: $CURRENT_REPO\nBranch corrente: $branch
+Reset
+Reset completo (perdita modifiche)
+Reset hard, modifiche non salvate andranno perse. Continuare?
+Revert
+Rimuove file e cartelle non tracciate
+Rimuovi
+Rimuovi chiave
+Rimuovi file dall'index
+Rimuovi file dalla staging area
+Rimuovi file non tracciati
+Rimuovi nota
+Rimuovi remoti
+Rimuovi tag esistenti
+Rimuovi un remote
+Ripristina file
+Ripristina file da un commit
+Risultato commit
+Rollback
+Salta commit
+Scarica aggiornamenti da tutti i remoti
+Scarica aggiornamenti da un remote
+Scarica aggiornamenti senza integrarli
+Scegli
+Scegli branch
+Scegli il branch di base
+Scegli remote
+Scegli repository da rimuovere
+Scegli un altro repository
+Scegli un file da confrontare
+Segna commit buono
+Segna commit cattivo
+Seleziona
+Seleziona almeno due commit.
+Seleziona cartella repository Git
+Seleziona commit
+Seleziona commit (prima base, poi target)
+Seleziona commit da revertare
+Seleziona commit di riferimento
+Seleziona commit per cherry-pick
+Seleziona commit per reset
+Seleziona il branch da unire
+Seleziona prima un repository.
+Seleziona remote
+Seleziona repository Git
+Seleziona un nuovo repository Git
+Seleziona un repository dal filesystem
+Sfoglia…
+Sincronizza URL submodule
+Specifica il branch da aggiornare
+Specifica il branch da pushare
+Stage
+Stash
+Stash disponibili
+Stash gestisci
+Stash lista
+Stash salva
+Stato
+Stato repository
+Strategia
+Strategia (es. ours, theirs)
+Submodule
+Svuota elenco
+Tag
+Tag addizionali (es. --tags)
+Tag creato
+Tag eliminati.
+Termina bisect
+Terminale
+Testo della nota
+Tipo
+Torna alla schermata precedente
+Tutti i file non tracciati verranno eliminati. Procedere?
+URL
+URL aggiornato.
+Ultimo aggiornamento
+Unisci un branch nel corrente
+Unstage
+Uscita
+Valore
+Visualizza l'elenco corrente
+Visualizza la cronologia
+Visualizza log
+Visualizza note salvate
+Visualizza stato del bisect
+Vuoi davvero cancellare tutti i repository salvati?
+\n--include-untracked\n--all
+\n--no-commit
+apply
+bad
+cat
+cd '$CURRENT_REPO' && exec bash
+drop
+git bisect $choice
+git bisect bad
+git bisect good
+git bisect skip
+git bisect start
+git checkout
+git cherry-pick
+git clean
+git clean --dry-run
+git commit -am
+git config
+git config --list
+git config --unset
+git fetch
+git log --graph --decorate --oneline
+git log completo
+git merge
+git notes list
+git pull
+git push
+git rebase
+git remote -v
+git reset --$mode
+git revert
+git stash $action
+git stash push
+git submodule $choice
+good
+hard
+init
+log
+mixed
+pop
+reset
+skip
+soft
+start
+status
+sync
+true
+update
